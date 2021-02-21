@@ -11,7 +11,7 @@ xrandr --output HDMI-1-1 --auto --rotate right --left-of eDP-1
 imgpath="/media/win/f/linux/root/myfiles/repos/wallpapers"
 img=$(ls $imgpath | shuf -n 1)
 #wal -ni $imgpath/$img
-wal -i $imgpath/$img
+#wal -i $imgpath/$img
 
 # compositor
 picom
