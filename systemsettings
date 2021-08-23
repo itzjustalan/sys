@@ -36,7 +36,7 @@ changeVolume(){
         else
                 echo "100-65536 or"
                 echo "1-100 for %"
-                echo "t to toggle" 
+                echo "t to toggle"
                 echo "m to Mute"
         fi
 }
@@ -70,10 +70,10 @@ changeBrightness(){
 
 
 # export to sudo
-chbr(){
+chbr() {
     sudo bash -c "$(declare -f); changeBrightness $1"
 }
 
-chvl(){
+chvl() {
     sudo bash -c "$(declare -f); changeVolume $1"
 }
